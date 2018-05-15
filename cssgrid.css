@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid-container > div{
+  background-color: #eee;
+  padding: 1em;
+}
+
+.grid-container >div:nth-child(odd){
+  background: #;
+}
+
+.grid-item{
+  border: 1px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
